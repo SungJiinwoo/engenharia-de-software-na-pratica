@@ -23,10 +23,52 @@ e hoje estou no 7º semestre, no Centro Universitário UDF, em Brasília.
 | set/2024 | PHP básico ([Curso em Vídeo](https://github.com/SungJiinwoo/certificates)) |
 | nov/2024 | SQL com MySQL (Udemy) e HTML, CSS e JavaScript (Fundação Bradesco) |
 | 2025 | Orientação a objetos, estruturas de dados em Python, uma aplicação em Django, um sistema de hospital em Java e um app em React Native com a API do Spotify |
-| 2026 | Complexidade de algoritmos, IA e linguagens formais na faculdade, e o TiraMil, uma plataforma de estudos para o ENEM, onde aprendi de verdade banco de dados, segurança e colocar sistema no ar |
+| 2026 | Complexidade de algoritmos, IA e linguagens formais na faculdade; o HERMES, sistema de gestão de um frigorífico que ajudei a desenvolver; e o TiraMil, uma plataforma de estudos para o ENEM, onde aprendi de verdade banco de dados, segurança e colocar sistema no ar |
 
 Os projetos de 2025 estão na minha conta antiga,
 [joaogbpereira](https://github.com/joaogbpereira).
+
+## HERMES: o primeiro sistema de empresa
+
+Em 2026 eu ajudei a desenvolver o HERMES, um sistema de gestão e controle de
+relatórios para um frigorífico. É um sistema interno, então o código é
+privado, mas dá para contar o que ele faz e o que eu aprendi com ele.
+
+**O que o sistema faz**
+
+- Relatórios a partir de modelos de formulário: o gestor monta o modelo, a
+  equipe preenche, e o relatório pode ser exportado em PDF.
+- Rastreabilidade e controle de GTA (Guia de Trânsito Animal), o documento que
+  acompanha o transporte de animais.
+- Acervo de documentos com download registrado, agenda, logística, financeiro e
+  um painel de indicadores.
+- Usuários com papéis diferentes, cada um vendo só o que pode, com auditoria de
+  acesso e verificação em duas etapas para gestores.
+
+**Stack:** C# com ASP.NET Core 8 (Razor Pages), Dapper, SQL Server, testes com
+xUnit, publicação no IIS e CI com GitHub Actions.
+
+**O que eu aprendi**
+
+- **SQL sem rede de proteção.** Com o Dapper as consultas são escritas à mão,
+  sem um ORM escondendo o que acontece. Tive que entender o SQL Server de
+  verdade: schemas, índices e migrações em script.
+- **Arquivo enviado não pode ficar na pasta pública.** Anexos e documentos
+  servidos direto da `wwwroot` ficam acessíveis sem login. Todo download
+  precisa passar por uma rota que confere quem está pedindo, e o caminho do
+  arquivo tem que ser validado para ninguém escapar da pasta com `../`.
+- **XSS aparece onde você desliga a proteção.** O Razor escapa tudo por
+  padrão; o problema estava nos lugares com `Html.Raw`.
+- **Publicar também é engenharia.** No IIS, sem guardar as chaves do Data
+  Protection em disco, todo mundo era deslogado a cada reciclagem do servidor.
+  Atrás de um proxy, sem repassar o IP real, o limite de tentativas de login
+  tratava todos os usuários como se fossem uma pessoa só.
+- **Não engolir exceção.** Um upload parou de funcionar por causa de um erro
+  de formatação numa string, e o `catch` escondia o erro atrás de "falha ao
+  salvar o arquivo". Desde então, todo `catch` registra o que aconteceu.
+
+Foi o projeto que me mostrou a diferença entre um sistema que funciona na
+minha máquina e um sistema que uma empresa usa todo dia.
 
 ## Onde eu mais aprendi
 
