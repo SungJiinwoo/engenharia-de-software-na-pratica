@@ -3,7 +3,7 @@
 ## Como começou
 
 Meu primeiro computador foi o notebook Dell do meu pai, um Pentium Dual Core
-que travava até com joguinho do Friv. Era nele que eu jogava Dragon City no
+com placa de vídeo integrada, que travava até com joguinho do Friv. Era nele que eu jogava Dragon City no
 Facebook e passava tarde no Click Jogos. Ter um computador meu sempre foi um
 sonho, e desde pequeno eu era ligado em tudo que era tecnologia.
 
