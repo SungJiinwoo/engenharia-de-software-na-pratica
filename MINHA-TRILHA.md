@@ -28,6 +28,17 @@ e hoje estou no 7º semestre, no Centro Universitário UDF, em Brasília.
 Os projetos de 2025 estão na minha conta antiga,
 [joaogbpereira](https://github.com/joaogbpereira).
 
+## Onde eu mais aprendi
+
+Quem mais me ensinou sobre programação e sobre a área como um todo foi o
+Fabio Akita, no canal [Akitando](https://www.youtube.com/@Akitando). Ele
+explica o porquê das coisas, de como o computador funciona por baixo até como
+é o mercado de verdade.
+
+Para quem está no zero, o [Curso em Vídeo](https://www.youtube.com/@CursoemVideo)
+é o lugar. Foi lá que eu fiz o curso de PHP, e é um canal que ajuda muito
+iniciante a dar o primeiro passo.
+
 ## O que eu aprendi no caminho
 
 **Começar por algo que você gosta.** Eu não aprendi Java porque alguém mandou.
