@@ -1,0 +1,13 @@
+# Variáveis de ambiente: nunca versionar os valores reais.
+.env
+.env.*
+!.env.example
+
+# Chaves e certificados
+*.pem
+*.key
+*.p12
+
+# Dumps de banco costumam ter dados pessoais
+*.sql.gz
+*.dump
