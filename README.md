@@ -9,6 +9,10 @@ O [fundamentos-programacao](https://github.com/SungJiinwoo/fundamentos-programac
 cobre a base (lógica, estruturas de dados, algoritmos). Este aqui é o passo
 seguinte: como construir um sistema de verdade sem abrir brecha.
 
+Como eu cheguei até aqui, do notebook do meu pai aos mods de Minecraft, está em
+[MINHA-TRILHA.md](MINHA-TRILHA.md), junto com a ordem de estudo que eu
+recomendaria para quem está começando.
+
 Regra que eu sigo em tudo aqui: nada de achismo. Quando cito uma norma, uma
 categoria da OWASP ou o comportamento de uma ferramenta, é porque conferi na
 fonte oficial, e o link está no texto.
@@ -28,6 +32,7 @@ fonte oficial, e o link está no texto.
 | 07 | HTTP, REST e o que cada status significa | |
 | 08 | Endpoints: validação de entrada, limites e erros | |
 | **Processo** | | |
+| 00 | [Como usar IA para estudar (sem deixar ela estudar por você)](processo/estudar-com-ia.md) | feito |
 | 09 | Métodos ágeis: Scrum e Kanban sem enrolação | |
 | 10 | Normas ISO que caem na faculdade (12207, 25010, 29119, 27001) | |
 | 11 | Testes: unidade, integração e testes de ataque | |
