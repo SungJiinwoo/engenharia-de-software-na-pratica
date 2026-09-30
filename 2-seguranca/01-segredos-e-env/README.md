@@ -1,5 +1,8 @@
 # 01. Segredos e `.env`
 
+Antes daqui: [variáveis de ambiente](../../1-base/04-variaveis-de-ambiente/README.md),
+que explica o que é uma variável de ambiente e o arquivo `.env`.
+
 ## O que eu preciso saber daqui
 
 Segredo é tudo que dá acesso a alguma coisa: senha de banco, chave de API,

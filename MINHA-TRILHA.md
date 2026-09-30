@@ -41,7 +41,7 @@ por isso que existe o [fundamentos-programacao](https://github.com/SungJiinwoo/f
 
 **Segurança não é etapa final.** Foi colocando um sistema no ar que eu
 entendi que RLS, `.env` e validação no servidor não são detalhe. É isso que o
-[módulo de segurança](seguranca/) deste repositório tenta passar adiante.
+[módulo de segurança](2-seguranca/) deste repositório tenta passar adiante.
 
 **Escrever o que aprendeu.** Anotação com as próprias palavras mostra na hora
 o que você ainda não entendeu.
