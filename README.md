@@ -27,8 +27,8 @@ o que é um endpoint.
 
 | # | Assunto | Estado |
 |---|---|---|
-| 01 | Como a web funciona: cliente, servidor e HTTP | |
-| 02 | APIs e endpoints: REST, métodos e status | |
+| 01 | [Como a web funciona: cliente, servidor e HTTP](1-base/01-como-a-web-funciona/README.md) | feito |
+| 02 | APIs e endpoints: REST, métodos e status | próximo |
 | 03 | Banco de dados no backend: conexão, SQL e migrações | |
 | 04 | [Variáveis de ambiente: configuração fora do código](1-base/04-variaveis-de-ambiente/README.md) | feito |
 | 05 | Git e GitHub: commit, branch, pull request e `.gitignore` | |
@@ -56,6 +56,20 @@ o que é um endpoint.
 | 05 | CI/CD: o que rodar a cada push | |
 
 Os módulos que faltam vão entrando aos poucos, na ordem.
+
+## Como rodar
+
+Os exemplos do módulo 01 só precisam de Python 3. Em um terminal:
+
+```bash
+python 1-base/01-como-a-web-funciona/exemplos/servidor.py
+```
+
+E em outro:
+
+```bash
+python 1-base/01-como-a-web-funciona/exemplos/cliente_cru.py /ola
+```
 
 Se algo aqui estiver errado ou confuso, abre uma issue. Corrigir um erro meu
 ajuda o próximo que ler.
